@@ -12,21 +12,24 @@ int main(void) {
     int total_cents;
     int year;
 
-    printf("pls enter the current year");
+    printf("pls enter the current year\n");
     scanf("%d", &year);
 
 
-    printf("type in 3 initials");
+    printf("type in 3 initials\n");
     scanf("%c%c%c", &first, &middle, &last);
     printf("\n%c%c%c, pls enter your coin information for %d.\n",
-    first, middle, last);
+    first, middle, last, year);
 
-
+    printf("number of quarters   > ");
     scanf("%d", &quarters);
+
     printf("number of dimes   > ");
     scanf("%d", &dimes);
+
     printf("nuber of nickles  >  ");
     scanf("%d", &nickles);
+    
     printf("number of pennies > ");
     scanf("%d", &pennies);
 
