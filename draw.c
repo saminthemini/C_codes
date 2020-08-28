@@ -12,7 +12,7 @@ void drawHouse();
 int main(void){
 
     int choice;
-    printf("Enter 1 if you would like to draw human, 2 for a house");
+    printf("Enter 1 if you would like to draw human, 2 for a house\n");
     scanf("%d", &choice);
 
     if(choice == 1)
@@ -80,6 +80,6 @@ void drawBase(){
 }
 
 void drawWall(){
-    printf(" | \n");
-    printf(" | \n");
+    printf(" |     | \n");
+    printf(" |     | \n");
 }

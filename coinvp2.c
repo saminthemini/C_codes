@@ -17,7 +17,7 @@ int main(void) {
 
 
     printf("type in 3 initials\n");
-    scanf("%c%c%c", &first, &middle, &last);
+    scanf(" %c%c%c", &first, &middle, &last);
     printf("\n%c%c%c, pls enter your coin information for %d.\n",
     first, middle, last, year);
 
@@ -29,7 +29,7 @@ int main(void) {
 
     printf("nuber of nickles  >  ");
     scanf("%d", &nickles);
-    
+
     printf("number of pennies > ");
     scanf("%d", &pennies);
 
